@@ -1,0 +1,10 @@
+BR2_mips64el=y
+BR2_mips_iii=y
+BR2_MIPS_NABI64=y
+# BR2_MIPS_SOFT_FLOAT is not set
+BR2_GNU_MIRROR="https://mirrors.bfsu.edu.cn/gnu"
+BR2_CCACHE=y
+BR2_CCACHE_DIR="/data/.buildroot-ccache"
+BR2_PIC_PIE=y
+BR2_TOOLCHAIN_BUILDROOT_MUSL=y
+BR2_TARGET_ROOTFS_CPIO=y
